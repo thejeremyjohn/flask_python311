@@ -1,0 +1,94 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2023-06-22T16:57:46.779Z",
+    "__export_source": "insomnia.desktop.app:v2023.1.0",
+    "resources": [
+        {
+            "_id": "req_690dd8813eaa4707b9cf0ec58fa79d67",
+            "parentId": "wrk_58e79de5d64c4b1f85dbc374db4f8092",
+            "modified": 1687453028288,
+            "created": 1687452298453,
+            "url": "{{ _.host }}/ping",
+            "name": "ping",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1000000000,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_58e79de5d64c4b1f85dbc374db4f8092",
+            "parentId": null,
+            "modified": 1687452284524,
+            "created": 1687452284524,
+            "name": "spearxrapi",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "env_5a5c5d18d741edc37d995bdda9ddd244db9c2a58",
+            "parentId": "wrk_58e79de5d64c4b1f85dbc374db4f8092",
+            "modified": 1687452991913,
+            "created": 1687452284527,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": {},
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1687452284527,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_5a5c5d18d741edc37d995bdda9ddd244db9c2a58",
+            "parentId": "wrk_58e79de5d64c4b1f85dbc374db4f8092",
+            "modified": 1687452284528,
+            "created": 1687452284528,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_f65a82e567234a1c9de3390d437045f9",
+            "parentId": "wrk_58e79de5d64c4b1f85dbc374db4f8092",
+            "modified": 1687452284524,
+            "created": 1687452284524,
+            "fileName": "spearxrapi",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "env_81a96c71b98a4a3cb7b4b60f4824220e",
+            "parentId": "env_5a5c5d18d741edc37d995bdda9ddd244db9c2a58",
+            "modified": 1687453015978,
+            "created": 1687452512990,
+            "name": "localhost",
+            "data": {
+                "host_": "http://127.0.0.1:5000/api/v1",
+                "host": "http://localhost:5000/api/v1"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "host_",
+                    "host"
+                ]
+            },
+            "color": "#84fe6c",
+            "isPrivate": false,
+            "metaSortKey": 1687452512990,
+            "_type": "environment"
+        }
+    ]
+}

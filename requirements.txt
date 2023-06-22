@@ -1,0 +1,11 @@
+autopep8==2.0.2
+cryptography==36.0.0
+Flask==2.3.2
+Flask-JWT-Extended==4.5.2
+Flask-Migrate==4.0.4
+flask-shell-ipython==0.5.1
+Flask-SQLAlchemy==3.0.4
+psycopg2-binary==2.9.6
+python-dotenv==1.0.0
+sqlparse==0.4.4
+validate-email==1.3
